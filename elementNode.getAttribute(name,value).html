@@ -18,7 +18,7 @@
     var Lists=document.getElementsByTagName("li");
     for (var i=0; i<Lists.length;i++)
     {
-        var text = Lists.getAttribute("title");
+        var text = Lists[i].getAttribute("title");
         document.write(text +"<br>");
         if(text=="")
         {
